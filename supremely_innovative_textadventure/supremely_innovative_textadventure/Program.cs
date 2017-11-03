@@ -41,7 +41,7 @@ namespace supremely_innovative_textadventure
 
                     break;
                 }
-
+                Console.WriteLine("");
                 Console.WriteLine("-----");
                 Console.WriteLine("---------------");
                 Console.WriteLine("-------------------------");
@@ -52,6 +52,7 @@ namespace supremely_innovative_textadventure
                 Console.WriteLine("-------------------------");
                 Console.WriteLine("---------------");
                 Console.WriteLine("-----");
+                Console.WriteLine("");
                 string battle_action = Console.ReadLine();
 
                 if (battle_action != "1" && battle_action != "2" && battle_action != "3")
@@ -59,6 +60,7 @@ namespace supremely_innovative_textadventure
                     battle_action = "3";
                 }
 
+                // player
                 bool another_loop_thing = true;
                 while ((battle_action == "1" || battle_action == "2" || battle_action == "3") && another_loop_thing == true)
                 {
@@ -88,6 +90,7 @@ namespace supremely_innovative_textadventure
                         
                     
                 }
+                // player ende
 
                 // enemy
                 Random rnd = new Random();
