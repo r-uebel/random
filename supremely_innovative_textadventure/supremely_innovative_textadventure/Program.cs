@@ -93,26 +93,29 @@ namespace supremely_innovative_textadventure
                 // player ende
 
                 // enemy
-                Random rnd = new Random();
-                int enemy_action_rnd = rnd.Next(1, 11);
+                if (guard_hp > 0)
+                {
+                    Random rnd = new Random();
+                    int enemy_action_rnd = rnd.Next(1, 11);
 
-                if(enemy_action_rnd > 0 && enemy_action_rnd <= 4)
-                {
-                    Console.WriteLine("Die Wache greift an!");
-                    player_hp -= guard_str;
-                }
-                else if(enemy_action_rnd > 4 && enemy_action_rnd < 8)
-                {
-                    Console.WriteLine("Die Wache verteidigt!");
-                    guard_hp += guard_def;
-                }
-                else if (enemy_action_rnd >= 8)
-                {
-                    Console.WriteLine("Die Wache wartet!");
-                }
-                else
-                {
-                    Console.WriteLine("Die Wache wartet!");
+                    if (enemy_action_rnd > 0 && enemy_action_rnd <= 4)
+                    {
+                        Console.WriteLine("Die Wache greift an!");
+                        player_hp -= guard_str;
+                    }
+                    else if (enemy_action_rnd > 4 && enemy_action_rnd < 8)
+                    {
+                        Console.WriteLine("Die Wache verteidigt!");
+                        guard_hp += guard_def;
+                    }
+                    else if (enemy_action_rnd >= 8)
+                    {
+                        Console.WriteLine("Die Wache wartet!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Die Wache wartet!");
+                    }
                 }
                 // enemy ende
             }
@@ -139,6 +142,7 @@ namespace supremely_innovative_textadventure
 
         public static string action_choice(string ch1 = "", string ch2 = "", string ch3 = "", string ch4 = "", string ch5 = "")
         {
+            Console.WriteLine("");
             output_n_sleep("----- Was wirst du tun? -----", 0);
 
             int how_many_choices = 0;
@@ -178,6 +182,7 @@ namespace supremely_innovative_textadventure
                     Console.WriteLine(i + 1 + ": " + ch5);
             }
             Console.WriteLine("-------------------------");
+            Console.WriteLine("");
 
             string choice_string = Console.ReadLine();
             if (choice_string != "1" && choice_string != "2" && choice_string != "3" && choice_string != "4" && choice_string != "5")
