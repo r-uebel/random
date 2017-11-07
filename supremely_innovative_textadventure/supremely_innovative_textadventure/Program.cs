@@ -294,6 +294,8 @@ namespace supremely_innovative_textadventure
 
             } // 1st loop ende
 
+            Console.ReadKey();
+
         } // main end
 
     } // class: Program end
