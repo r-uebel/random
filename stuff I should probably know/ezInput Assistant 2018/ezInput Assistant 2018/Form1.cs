@@ -47,6 +47,13 @@ namespace ezInput_Assistant_2018
                     file.WriteLine(line2);
                     file.WriteLine(line3);
                 }
+
+                line1 = "";
+                line2 = "";
+                line3 = "";
+                wordTextBox.Text = "";
+                wordtypeTextBox.Text = "";
+                wordtextTextBox.Text = "";
             }
         }
     }

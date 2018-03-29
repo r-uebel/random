@@ -1,0 +1,9 @@
+C:\Users\r.uebel\Desktop\stuff I should probably know\ezInput Assistant 2018\ezInput Assistant 2018\bin\Release\ezInput Assistant 2018.exe.config
+C:\Users\r.uebel\Desktop\stuff I should probably know\ezInput Assistant 2018\ezInput Assistant 2018\bin\Release\ezInput Assistant 2018.exe
+C:\Users\r.uebel\Desktop\stuff I should probably know\ezInput Assistant 2018\ezInput Assistant 2018\bin\Release\ezInput Assistant 2018.pdb
+C:\Users\r.uebel\Desktop\stuff I should probably know\ezInput Assistant 2018\ezInput Assistant 2018\obj\Release\ezInput Assistant 2018.csprojResolveAssemblyReference.cache
+C:\Users\r.uebel\Desktop\stuff I should probably know\ezInput Assistant 2018\ezInput Assistant 2018\obj\Release\ezInput_Assistant_2018.Form1.resources
+C:\Users\r.uebel\Desktop\stuff I should probably know\ezInput Assistant 2018\ezInput Assistant 2018\obj\Release\ezInput_Assistant_2018.Properties.Resources.resources
+C:\Users\r.uebel\Desktop\stuff I should probably know\ezInput Assistant 2018\ezInput Assistant 2018\obj\Release\ezInput Assistant 2018.csproj.GenerateResource.Cache
+C:\Users\r.uebel\Desktop\stuff I should probably know\ezInput Assistant 2018\ezInput Assistant 2018\obj\Release\ezInput Assistant 2018.exe
+C:\Users\r.uebel\Desktop\stuff I should probably know\ezInput Assistant 2018\ezInput Assistant 2018\obj\Release\ezInput Assistant 2018.pdb

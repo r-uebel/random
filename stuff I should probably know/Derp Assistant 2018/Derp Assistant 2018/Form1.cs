@@ -30,6 +30,7 @@ namespace Derp_Assistant_2018
         public static string[] wordtypearray;
         public static string[] solutionarray;
 
+        public static string file = "";
         public static int difficulty = 1; // default: leicht
         public static int playable_rounds = difficulty * 10;
         public static int round = 1;
@@ -49,8 +50,12 @@ namespace Derp_Assistant_2018
 
             if (result == DialogResult.OK)
             {
+                if (file != "") // wenn bereits eine datei geladen wurde, alles zurücksetzen.
+                {
+                    resetall(); // resets... all...
+                }
 
-                string file = openFileDialog1.FileName;
+                file = openFileDialog1.FileName;
                 try
                 {
                     filetext = File.ReadAllText(file);
@@ -162,6 +167,47 @@ namespace Derp_Assistant_2018
 
 
 
+
+
+
+
+        public void resetall()
+        {
+            wordlabel.Text = "Wort";
+            wordtypelabel.Text = "Wortart";
+            solutionlabel.Text = "Lösung";
+            roundcounterlabel.Text = "Runde: 1";
+            pointslabel.Text = "";
+
+            list_of_wrong_answers.Clear();
+            list_of_wrong_answers.TrimExcess();
+
+            yesbutton.Visible = false;
+            nobutton.Visible = false;
+            showsolutionbutton.Visible = false;
+            nextbutton.Visible = true;
+
+            word_index = 0;
+            wordtype_index = 1;
+            solution_index = 2;
+            seperatorline_index = 3; // werde ich wahrscheinlich nicht verwenden, steht hier um spätere verwirrung durch die indexe zu vermeiden.
+
+            filetext = "";
+            filetext_array = new string[0];
+            filetext_arraysize = 0;
+            file_linecount = 0;
+
+            wordarray = new string[0];
+            wordtypearray = new string[0];
+            solutionarray = new string[0];
+
+            file = "";
+            difficulty = difficulty; // einstellungen sollen erhalten bleiben.
+            playable_rounds = difficulty * 10;
+            round = 1;
+            index = round - 1;
+            points = 0;
+        }
 
         static void shuffle<T>(T[] array)
         {

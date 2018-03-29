@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(derpassistant));
             this.wordlabel = new System.Windows.Forms.Label();
             this.wordtypelabel = new System.Windows.Forms.Label();
             this.solutionlabel = new System.Windows.Forms.Label();
@@ -38,15 +39,15 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.dateiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textdateiÄndernToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.schwierigkeitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.leichtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mediumToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.schwerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hilfeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.nextbutton = new System.Windows.Forms.Button();
             this.roundcounterlabel = new System.Windows.Forms.Label();
             this.pointslabel = new System.Windows.Forms.Label();
-            this.schwierigkeitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.leichtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mediumToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.schwerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -176,6 +177,37 @@
             this.textdateiÄndernToolStripMenuItem.Text = "Textdatei ändern";
             this.textdateiÄndernToolStripMenuItem.Click += new System.EventHandler(this.changefileMenuItem_click);
             // 
+            // schwierigkeitToolStripMenuItem
+            // 
+            this.schwierigkeitToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.leichtToolStripMenuItem,
+            this.mediumToolStripMenuItem,
+            this.schwerToolStripMenuItem});
+            this.schwierigkeitToolStripMenuItem.Name = "schwierigkeitToolStripMenuItem";
+            this.schwierigkeitToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.schwierigkeitToolStripMenuItem.Text = "Schwierigkeit";
+            // 
+            // leichtToolStripMenuItem
+            // 
+            this.leichtToolStripMenuItem.Name = "leichtToolStripMenuItem";
+            this.leichtToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.leichtToolStripMenuItem.Text = "Leicht";
+            this.leichtToolStripMenuItem.Click += new System.EventHandler(this.leichtToolStripMenuItem_Click);
+            // 
+            // mediumToolStripMenuItem
+            // 
+            this.mediumToolStripMenuItem.Name = "mediumToolStripMenuItem";
+            this.mediumToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.mediumToolStripMenuItem.Text = "Medium";
+            this.mediumToolStripMenuItem.Click += new System.EventHandler(this.mediumToolStripMenuItem_Click);
+            // 
+            // schwerToolStripMenuItem
+            // 
+            this.schwerToolStripMenuItem.Name = "schwerToolStripMenuItem";
+            this.schwerToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.schwerToolStripMenuItem.Text = "Schwer";
+            this.schwerToolStripMenuItem.Click += new System.EventHandler(this.schwerToolStripMenuItem_Click);
+            // 
             // hilfeToolStripMenuItem
             // 
             this.hilfeToolStripMenuItem.Name = "hilfeToolStripMenuItem";
@@ -224,37 +256,6 @@
             this.pointslabel.TabIndex = 10;
             this.pointslabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // schwierigkeitToolStripMenuItem
-            // 
-            this.schwierigkeitToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.leichtToolStripMenuItem,
-            this.mediumToolStripMenuItem,
-            this.schwerToolStripMenuItem});
-            this.schwierigkeitToolStripMenuItem.Name = "schwierigkeitToolStripMenuItem";
-            this.schwierigkeitToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.schwierigkeitToolStripMenuItem.Text = "Schwierigkeit";
-            // 
-            // leichtToolStripMenuItem
-            // 
-            this.leichtToolStripMenuItem.Name = "leichtToolStripMenuItem";
-            this.leichtToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.leichtToolStripMenuItem.Text = "Leicht";
-            this.leichtToolStripMenuItem.Click += new System.EventHandler(this.leichtToolStripMenuItem_Click);
-            // 
-            // mediumToolStripMenuItem
-            // 
-            this.mediumToolStripMenuItem.Name = "mediumToolStripMenuItem";
-            this.mediumToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.mediumToolStripMenuItem.Text = "Medium";
-            this.mediumToolStripMenuItem.Click += new System.EventHandler(this.mediumToolStripMenuItem_Click);
-            // 
-            // schwerToolStripMenuItem
-            // 
-            this.schwerToolStripMenuItem.Name = "schwerToolStripMenuItem";
-            this.schwerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.schwerToolStripMenuItem.Text = "Schwer";
-            this.schwerToolStripMenuItem.Click += new System.EventHandler(this.schwerToolStripMenuItem_Click);
-            // 
             // derpassistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -273,6 +274,7 @@
             this.Controls.Add(this.wordlabel);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "derpassistant";
@@ -289,7 +291,6 @@
         private System.Windows.Forms.Label wordlabel;
         private System.Windows.Forms.Label wordtypelabel;
         private System.Windows.Forms.Label solutionlabel;
-        private System.Windows.Forms.Button yesbutton;
         private System.Windows.Forms.Button nobutton;
         private System.Windows.Forms.Button showsolutionbutton;
         private System.Windows.Forms.Label pointsinfolabel;
@@ -305,6 +306,7 @@
         private System.Windows.Forms.ToolStripMenuItem leichtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mediumToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem schwerToolStripMenuItem;
+        private System.Windows.Forms.Button yesbutton;
     }
 }
 

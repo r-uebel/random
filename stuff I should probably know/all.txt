@@ -1,0 +1,6 @@
+Ansible,,,Definition
+Ansible ist ein Open-Source Automatisierungs-Werkzeug zur Orchestrierung und allgemeinen Konfiguration und Administration von Computern. Es kombiniert Softwareverteilung, Ad-hoc-Kommando-Ausführung und Konfigurationsmanagement. Es verwaltet Netzwerkcomputer unter anderem über SSH und erfordert keinerlei zusätzliche Software auf dem zu verwaltenden System. Module nutzen zur Ausgabe JSON und können in jeder beliebigen Programmiersprache geschrieben sein. Das System nutzt YAML zur Formulierung wiederverwendbarer Beschreibungen von Systemen.
+----------
+Open Source,,,Definition
+Als Open Source (aus englisch open source, wörtlich offene Quelle) wird Software bezeichnet, deren Quelltext öffentlich und von Dritten eingesehen, geändert und genutzt werden kann. Open-Source-Software kann meistens kostenlos genutzt werden.
+----------
