@@ -53,9 +53,8 @@
             // 
             // wordlabel
             // 
-            this.wordlabel.AutoSize = true;
             this.wordlabel.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.wordlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.wordlabel.ForeColor = System.Drawing.SystemColors.Control;
             this.wordlabel.Location = new System.Drawing.Point(12, 30);
             this.wordlabel.MaximumSize = new System.Drawing.Size(200, 50);
@@ -68,9 +67,8 @@
             // 
             // wordtypelabel
             // 
-            this.wordtypelabel.AutoSize = true;
             this.wordtypelabel.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.wordtypelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordtypelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.wordtypelabel.ForeColor = System.Drawing.SystemColors.Control;
             this.wordtypelabel.Location = new System.Drawing.Point(12, 106);
             this.wordtypelabel.MaximumSize = new System.Drawing.Size(200, 50);
@@ -83,9 +81,8 @@
             // 
             // solutionlabel
             // 
-            this.solutionlabel.AutoSize = true;
             this.solutionlabel.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.solutionlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.solutionlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.solutionlabel.ForeColor = System.Drawing.SystemColors.Control;
             this.solutionlabel.Location = new System.Drawing.Point(165, 30);
             this.solutionlabel.MaximumSize = new System.Drawing.Size(500, 200);

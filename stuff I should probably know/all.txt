@@ -1,6 +1,162 @@
-Ansible,,,Definition
+﻿Ansible,,,Definition
 Ansible ist ein Open-Source Automatisierungs-Werkzeug zur Orchestrierung und allgemeinen Konfiguration und Administration von Computern. Es kombiniert Softwareverteilung, Ad-hoc-Kommando-Ausführung und Konfigurationsmanagement. Es verwaltet Netzwerkcomputer unter anderem über SSH und erfordert keinerlei zusätzliche Software auf dem zu verwaltenden System. Module nutzen zur Ausgabe JSON und können in jeder beliebigen Programmiersprache geschrieben sein. Das System nutzt YAML zur Formulierung wiederverwendbarer Beschreibungen von Systemen.
 ----------
 Open Source,,,Definition
 Als Open Source (aus englisch open source, wörtlich offene Quelle) wird Software bezeichnet, deren Quelltext öffentlich und von Dritten eingesehen, geändert und genutzt werden kann. Open-Source-Software kann meistens kostenlos genutzt werden.
+----------
+Quelltext,,,Definition
+Quelltext, auch Quellcode (englisch source code) oder unscharf Programmcode genannt, ist in der Informatik der für Menschen lesbare, in einer Programmiersprache geschriebene Text eines Computerprogrammes. Abstrakt betrachtet kann der Quelltext für ein Programm auch als Software-Dokument bezeichnet werden, welches das Programm formal so exakt und vollständig beschreibt, dass dieses aus ihm vollständig automatisch von einem Computer in Maschinensprache übersetzt werden kann.
+----------
+Informatik,,,Definition
+Informatik ist die „Wissenschaft von der systematischen Darstellung, Speicherung, Verarbeitung und Übertragung von Informationen, besonders der automatischen Verarbeitung mithilfe von Digitalrechnern“.[1] Historisch hat sich die Informatik einerseits als Formalwissenschaft aus der Mathematik entwickelt, andererseits als Ingenieursdisziplin aus dem praktischen Bedarf nach der schnellen und insbesondere automatischen Ausführung von Berechnungen.
+----------
+Menschenlesbarkeit,,,Definition
+Als menschenlesbar bezeichnet man eine Informationsrepräsentation, die auf natürliche Weise von Menschen gelesen werden kann. In den meisten Zusammenhängen ist die dazu alternative Darstellung eine Darstellung von Daten, die primär gestaltet wurden, um von Computern gelesen zu werden, also maschinenlesbar zu sein. Die Ziffernfolge, die gemeinhin einen UPC-Barcode begleitet, ist beispielsweise eine menschenlesbare Form der in dem Barcode präsenten Information. Im Fall der Barcodes, die in Geschäften verwendet werden, verlangen Gesetze häufig, dass neben dem maschinenlesbaren Barcode und der Preisangabe an der Kasse ein menschenlesbarer Preis an der Ware angebracht wird.
+----------
+Machinenlesbarkeit,,,Definition
+Als maschinenlesbar werden Schriften, Ausweise, Kfz-Kennzeichen o. Ä. bezeichnet, wenn sie speziell darauf ausgelegt wurden, auch für Maschinen lesbar zu sein, anstatt nur für Menschen.
+----------
+Programmiersprache,,,Definition
+Eine Programmiersprache ist eine formale Sprache zur Formulierung von Datenstrukturen und Algorithmen, d. h. von Rechenvorschriften, die von einem Computer ausgeführt werden können.[1] Sie setzen sich aus Anweisungen nach einem vorgegebenen Muster zusammen, der sogenannten Syntax.
+----------
+Visuelle Programmiersprache,,,Definition
+Als Visuelle Programmiersprache (englisch visual programming language, VPL) bezeichnet man eine Programmiersprache, in der ein Programm, Algorithmus oder Systemverhalten durch grafische Elemente und deren Anordnung definiert wird.
+----------
+Computerprogramm,,,Definition
+Ein Computerprogramm oder kurz Programm ist eine den Regeln einer bestimmten Programmiersprache genügende Folge von Anweisungen (bestehend aus Deklarationen und Instruktionen), um bestimmte Funktionen bzw. Aufgaben oder Probleme mithilfe eines Computers zu bearbeiten oder zu lösen.
+----------
+Deklaration (Programmierung),,,Definition
+In der Informatik und Programmierung ist eine Deklaration die Festlegung von Dimension, Bezeichner, Datentyp und weiteren Aspekten einer Variable oder eines Unterprogramms. Durch die Deklaration wird dem Übersetzer (Compiler oder Interpreter) diese Variable bzw. dieses Unterprogramm bekannt gemacht; es ist damit möglich, diese an anderen Stellen im selben Quelltext zu verwenden.
+----------
+Computer,,,Definition
+Ein Computer [kɔmˈpjuːtɐ] oder Rechner, auch elektronische Datenverarbeitungsanlage, ist ein Gerät, das mittels programmierbarer Rechenvorschriften Daten verarbeitet.
+----------
+Anweisung (Programmierung),,,Definition
+Als Anweisung oder Statement (aus englisch statement entlehnt)[1] wird in der Informatik im Bereich der Programmierung ein zentrales Element vieler imperativer Programmiersprachen bezeichnet. Die Programme derartiger Sprachen setzen sich hauptsächlich aus einer oder mehreren Anweisungen zusammen. Eine Anweisung stellt eine in der Syntax einer Programmiersprache formulierte einzelne Vorschrift dar, die im Rahmen der Abarbeitung des Programms auszuführen ist. Wie eine Anweisung syntaktisch auszusehen hat, wird durch die jeweilige Programmiersprache oder deren Spezifikation festgelegt und ist innerhalb eines Programms (üblicherweise) nicht änderbar.
+----------
+Algorithmus,,,Definition
+Ein Algorithmus ist eine eindeutige Handlungsvorschrift zur Lösung eines Problems oder einer Klasse von Problemen. Algorithmen bestehen aus endlich vielen, wohldefinierten Einzelschritten.[1] Damit können sie zur Ausführung in einem Computerprogramm implementiert, aber auch in menschlicher Sprache formuliert werden. Bei der Problemlösung wird eine bestimmte Eingabe in eine bestimmte Ausgabe überführt.[2]
+----------
+Abstraktion (Informatik),,,Definition
+Der Begriff Abstraktion wird in der Informatik sehr häufig eingesetzt und beschreibt die Trennung zwischen Konzept und Umsetzung. Strukturen werden dabei über ihre Bedeutung definiert, während die detaillierten Informationen über die Funktionsweise verborgen bleiben. Abstraktion zielt darauf ab, die Details der Implementierung nicht zu berücksichtigen und daraus ein allgemeines Schema zur Lösung des Problems abzuleiten. Ein Computerprogramm kann so unterschiedliche Abstraktionsebenen aufweisen, wobei auf jeder Ebene ein anderer Grad des Informationsgehaltes dem Programmierer preisgegeben wird. Eine Abstraktion auf niedriger Stufe beinhaltet Details zur Hardware, auf der das Programm läuft. Höher liegende Abstraktionsebenen beschäftigen sich dagegen mit der Geschäftslogik der Software.
+----------
+Software,,,Definition
+Software [ˈsɒf(t)wɛː] (dt. = weiche Ware [von] soft = leicht veränderbare Komponenten […], Komplement zu ‚Hardware‘ für die physischen Komponenten)[1] ist ein Sammelbegriff für Programme und die zugehörigen Daten.[2] Sie kann als Beiwerk zusätzlich Bestandteile wie z. B. die Softwaredokumentation in der digitalen oder gedruckten Form eines Handbuchs enthalten.[3]
+----------
+Konfigurationsmanagement,,,Definition
+Konfigurationsmanagement (KM; englisch configuration management, CM) ist eine Managementdisziplin, die organisatorische und verhaltensmäßige Regeln auf den Lebenslauf eines Produkts und seiner Konfigurationseinheiten von Entwicklung über Herstellung und Betreuung bis hin zur Entsorgung[1] anwendet.[2]
+----------
+Softwareverteilung,,,Definition
+Softwareverteilung (englisch software deployment) nennt man Prozesse zur Installation von Software auf Rechnern.
+----------
+Orchestrierung,,,Definition
+Orchestrierung (englisch orchestration, Instrumentierung, Inszenierung) ist das flexible Kombinieren mehrerer Services zu einer Komposition. Diese Komposition beschreibt einen ausführbaren Geschäftsprozess. Sowohl unternehmensinterne als auch unternehmensexterne Dienste können kombiniert werden. Der Prozessfluss wird durch einen Teilnehmer kontrolliert. Jeder Dienst hat dabei einen eingeschränkten Sichtbereich (englisch scope) und kann für Prozesse nur innerhalb seines Sichtbereichs entscheiden. Aktivitäten hinter einem direkten Kommunikationspartner bleiben verborgen. WS-BPEL ist ein Beispiel für eine Sprache zur Orchestrierung von Webservices.
+----------
+Choreographie,,,Definition
+Bei der Choreographie (englisch choreography) beschreibt jeder Dienst seine eigene Aufgabe in der gesamten Komposition. Es gibt keinen zentralen Punkt, der die Korrektheit und Aufgabenerfüllung kontrolliert. Der Fokus liegt auf dem Nachrichtenaustausch zwischen den Diensten. WS-CDL ist ein Beispiel für eine Choreographiesprache.
+----------
+WS-Choreography Description Language,,,Definition
+Web Services Choreography Description Language (WS-CDL) ist der Teil der sogenannten WS-*-Spezifikationen. Dabei ist sie eine XML-basierte Sprache, die Peer-to-Peer-Kommunikationen zwischen verschiedenen Webserviceakteuren beschreibt, indem aus einer Beobachterperspektive (nicht aus der Perspektive eines Beteiligten) das jeweils beobachtbare Verhalten der Akteure definiert wird.
+----------
+WS-Business Process Execution Language,,,Definition
+Die WS-Business Process Execution Language (BPEL) ist eine XML-basierte Sprache zur Beschreibung von Geschäftsprozessen, deren einzelne Aktivitäten durch Webservices implementiert sind. WS-BPEL ist Teil der sogenannten WS-*-Spezifikationen als industrieller Standard von OASIS.
+----------
+Secure Shell,,,Definition
+Secure Shell oder SSH bezeichnet sowohl ein Netzwerkprotokoll als auch entsprechende Programme, mit deren Hilfe man auf eine sichere Art und Weise eine verschlüsselte Netzwerkverbindung mit einem entfernten Gerät herstellen kann. Häufig wird diese Methode verwendet, um lokal eine entfernte Kommandozeile verfügbar zu machen, das heißt, auf einer lokalen Konsole werden die Ausgaben der entfernten Konsole ausgegeben und die lokalen Tastatureingaben werden an den entfernten Rechner gesendet. Genutzt werden kann dies beispielsweise zur Fernwartung eines in einem entfernten Rechenzentrum stehenden Servers. Die neuere Protokoll-Version SSH-2 bietet weitere Funktionen wie Datenübertragung per SFTP. Die IANA hat dem Protokoll den TCP-Port 22 zugeordnet.
+----------
+Netzwerkprotokoll,,,Definition
+Ein Netzwerkprotokoll (auch Netzprotokoll) ist ein Kommunikationsprotokoll für den Austausch von Daten zwischen Computern bzw. Prozessen, die in einem Rechnernetz miteinander verbunden sind (verteiltes System). Die Vereinbarung besteht aus einem Satz von Regeln und Formaten (Syntax), die das Kommunikationsverhalten der kommunizierenden Instanzen in den Computern bestimmen (Semantik).
+----------
+Daten,,,Definition
+Unter Daten versteht man im Allgemeinen Angaben, (Zahlen-)Werte oder formulierbare Befunde, die durch Messung, Beobachtung u. a. gewonnen wurden.[1] In der Umgangssprache versteht man darunter Gegebenheiten, Tatsachen, Ereignisse.[2] Daneben existieren in verschiedenen Fachbereichen, wie z. B. der Informatik oder der Wirtschaftstheorie, unterschiedliche – wenn auch meist ähnliche – Definitionen. Eine einheitliche Definition gibt es jedoch nicht.[3][4] Für die Datenverarbeitung und (Wirtschafts-)Informatik werden Daten als Zeichen (oder Symbole) definiert, die Informationen darstellen und die dem Zweck der Verarbeitung dienen.
+----------
+Kommunikationsprotokoll,,,Definition
+In der Informatik und in der Telekommunikation ist ein Kommunikationsprotokoll eine Vereinbarung, nach der die Datenübertragung zwischen zwei oder mehreren Parteien abläuft. In seiner einfachsten Form kann ein Protokoll definiert werden als eine Menge von Regeln, die Syntax, Semantik und Synchronisation der Kommunikation bestimmen. Protokolle können durch Hardware, Software oder eine Kombination von beiden implementiert werden. Auf der untersten Ebene definiert ein Protokoll das Verhalten der Verbindungs-Hardware.
+----------
+JavaScript Object Notation,,,Definition
+Die JavaScript Object Notation, kurz JSON [ˈdʒeɪsən], ist ein kompaktes Datenformat in einer einfach lesbaren Textform zum Zweck des Datenaustauschs zwischen Anwendungen. Jedes gültige JSON-Dokument soll ein gültiges JavaScript sein und per eval() interpretiert werden können. Aufgrund kleiner Abweichungen in der Menge der erlaubten Unicode-Zeichen ist es jedoch möglich, JSON-Objekte zu erzeugen, die von einem normkonformen JavaScript-Interpreter nicht akzeptiert werden.[1] Davon abgesehen ist JSON aber unabhängig von der Programmiersprache. Parser existieren in praktisch allen verbreiteten Sprachen.
+----------
+Datenformat,,,Definition
+Datenformat ist ein Begriff aus der Datenverarbeitung, der festlegt, wie Daten strukturiert und dargestellt werden[1] und wie sie bei ihrer Verarbeitung zu interpretieren sind.[2]
+----------
+YAML,,,Definition
+YAML [ˈjæməl] ist eine vereinfachte Auszeichnungssprache (englisch markup language) zur Datenserialisierung, angelehnt an XML (ursprünglich) und an die Datenstrukturen in den Sprachen Perl, Python und C sowie dem in RFC 2822 vorgestellten E-Mail-Format. Die Idee zu YAML stammt von Clark Evans, die Spezifikation wurde von ihm selbst, Brian Ingerson und Oren Ben-Kiki erstellt.
+----------
+Internet Assigned Numbers Authority,,,Definition
+Die Internet Assigned Numbers Authority (IANA) ist eine Abteilung der ICANN und für die Zuordnung von Nummern und Namen im Internet, insbesondere von IP-Adressen, zuständig. Sie ist eine der ältesten Institutionen im Internet.
+----------
+Internet Corporation for Assigned Names and Numbers,,,Definition
+Die Internet Corporation for Assigned Names and Numbers (ICANN) koordiniert die Vergabe von einmaligen Namen und Adressen im Internet. Dazu gehört die Koordination des Domain Name Systems und die Zuteilung von IP-Adressen, was auch als „IANA-Funktion“ (abgeleitet von engl. Internet Assigned Names and Numbers) bezeichnet wird. Die ICANN hat ihren Hauptsitz in Los Angeles und ist in Kalifornien als Non-Profit-Organisation eingetragen.
+----------
+Internet,,,Definition
+Das Internet (von englisch internetwork, zusammengesetzt aus dem Präfix inter und network ‚Netzwerk‘ oder kurz net ‚Netz‘), umgangssprachlich auch Netz, ist ein weltweiter Verbund von Rechnernetzwerken, den autonomen Systemen. Es ermöglicht die Nutzung von Internetdiensten wie WWW, E-Mail, Telnet, Usenet und FTP. Dabei kann sich jeder Rechner mit jedem anderen Rechner verbinden. Der Datenaustausch zwischen den über das Internet verbundenen Rechnern erfolgt über die technisch normierten Internetprotokolle. Die Technik des Internets wird durch die RFCs der Internet Engineering Task Force (IETF) beschrieben.
+----------
+Transmission Control Protocol,,,Definition
+Das Transmission Control Protocol (TCP, engl., zu deutsch Übertragungssteuerungsprotokoll) ist ein Netzwerkprotokoll, das definiert, auf welche Art und Weise Daten zwischen Netzwerkkomponenten ausgetauscht werden sollen. Nahezu sämtliche aktuellen Betriebssysteme moderner Computer beherrschen TCP und nutzen es für den Datenaustausch mit anderen Rechnern. Das Protokoll ist ein zuverlässiges, verbindungsorientiertes, paketvermitteltes[1] Transportprotokoll in Computernetzwerken. Es ist Teil der Internetprotokollfamilie, der Grundlage des Internets.
+----------
+User Datagram Protocol,,,Definition
+Das User Datagram Protocol, kurz UDP, ist ein minimales, verbindungsloses Netzwerkprotokoll, das zur Transportschicht der Internetprotokollfamilie gehört. UDP ermöglicht Anwendungen den Versand von Datagrammen in IP-basierten Rechnernetzen.
+----------
+File Transfer Protocol,,,Definition
+Das File Transfer Protocol [fʌɪl trɑːnsˌfəˌprəʊtəkɒl] (FTP, englisch für Dateiübertragungsprotokoll) ist ein im RFC 959 von 1985 spezifiziertes zustandsbehaftetes Netzwerkprotokoll zur Übertragung von Dateien über IP-Netzwerke. FTP ist in der Anwendungsschicht (Schicht 7) des OSI-Schichtenmodells angesiedelt. Es wird benutzt, um Dateien vom Server zum Client (Herunterladen), vom Client zum Server (Hochladen) oder clientgesteuert zwischen zwei FTP-Servern zu übertragen (File Exchange Protocol). Außerdem können mit FTP Verzeichnisse angelegt und ausgelesen sowie Verzeichnisse und Dateien umbenannt oder gelöscht werden.
+----------
+Port (Protokoll),,,Definition
+Ein Port ist der Teil einer Netzwerk-Adresse, der die Zuordnung von TCP- und UDP-Verbindungen und -Datenpaketen zu Server- und Client-Programmen durch Betriebssysteme bewirkt. Zu jeder Verbindung dieser beiden Protokolle gehören zwei Ports, je einer auf Seiten des Clients und des Servers.
+----------
+FTP über SSL,,,Definition
+FTP über SSL oder FTP over TLS, kurz FTPS, ist eine Methode zur Verschlüsselung des File Transfer Protocol (FTP), die im RFC 4217 beschrieben ist.Im Unterschied zu SFTP stellt FTPS eine Kommunikation von FTP über Transport Layer Security (TLS) und keine Kommunikation von FTP über SSH dar.Die Verschlüsselung von FTP ist aufwändig, weil dieses Protokoll mindestens zwei separate Verbindungen erfordert. FTPS sieht deshalb vor, dass die Nutzdaten nicht unbedingt verschlüsselt werden und nach der Authentifizierung die Verschlüsselung entfallen kann. Inwieweit beim FTPS verschlüsselt wird, hängt auch vom jeweiligen Server und Client ab.[1]Mehrere Dutzend Clients und Server sowie einige Proxys unterstützen FTPS.[2] Für FXP über TLS gibt es beispielsweise SSCN (set secured client negotiation).
+----------
+Verschlüsselung,,,Definition
+Verschlüsselung (auch: Chiffrierung) ist die von einem Schlüssel abhängige Umwandlung von „Klartext“ genannten Daten in einen „Geheimtext“ (auch: „Chiffrat“), so dass der Klartext aus dem Geheimtext nur unter Verwendung eines geheimen Schlüssels wiedergewonnen werden kann. Sie dient zur Geheimhaltung von Nachrichten, beispielsweise um Daten gegenüber unbefugtem Zugriff zu schützen oder um Nachrichten vertraulich übermitteln zu können.
+----------
+SSH File Transfer Protocol,,,Definition
+Das SSH File Transfer Protocol oder Secure File Transfer Protocol (SFTP) ist eine für die Secure Shell (SSH) entworfene Alternative zum File Transfer Protocol (FTP), die Verschlüsselung ermöglicht.
+----------
+Server,,,Definition
+Ein Server (englisch server, wörtlich Diener oder Bediensteter, im weiteren Sinn auch Dienst[1][2]) ist ein Computerprogramm oder ein Computer, der Computerfunktionalitäten wie Dienstprogramme, Daten oder andere Ressourcen bereitstellt, damit andere Computer oder Programme („Clients“) darauf zugreifen können, meist über ein Netzwerk. Dabei hat Server zwei verwandte, aber unterschiedliche Grundbedeutungen: Ein Server als Software ist ein Programm, das im Client-Server-Modell mit einem anderen Programm, dem Client (englisch für Kunde), kommuniziert. Der Client kann dadurch bestimmte, von der Server-Software bereitgestellte Funktionalitäten nutzen, zum Beispiel Dienstprogramme, Netzwerkdienste, den Zugang zu einem Dateisystem oder einer Datenbank.Ein Hardware-Server, siehe Hostrechner, ist ein Computer, auf dem ein oder mehrere Server (Software) laufen 
+----------
+Client,,,Definition
+Ein Client (über englisch client aus lateinisch cliens wörtlich für „Kunde“)[1] – auch clientseitige Anwendung, Clientanwendung oder Clientprogramm – bezeichnet ein Computerprogramm, das auf dem Endgerät eines Netzwerks ausgeführt wird und mit einem Server (Zentralrechner) kommuniziert. Man nennt auch ein Endgerät selbst, das Dienste von einem Server abruft, Client.
+----------
+Formale Sprache,,,Definition
+Jede Sprache, die von Menschen für bestimme Zwecke entwickelt wurde, z.B. für die Darstellung mathematischer Ideen oder das Schreiben von Computerprogrammen.
+----------
+Interaktiver Modus,,,Definition
+Modus eines Interpreters, in dem Befehle und Ausdrücke in die Befehlszeile eingegeben werden
+----------
+Interpreter,,,Definition
+Programm zum Interpretieren einer Höheren Programmiersprache
+----------
+Interpretieren,,,Definition
+Ausführung eines in einer höheren Programmiersprache geschriebenen Programms durch zeilenweises Übersetzen.
+----------
+Kompilieren,,,Definition
+Vollständige Übersetzung eines in einer Höheren Programmiersprache geschriebenen Programms in eine Niedere Programmiersprache mit dem Zweck, es später direkt ausführen zu können.
+----------
+Objektcode,,,Definition
+Ausgabe des Compilers nach Kompilieren des Programms
+----------
+Operand,,,Definition
+Wert, auf den ein Operator angewandt wird
+----------
+Operator,,,Definition
+Spezielles Symbol, das einfache Berechnungen darstellt, z.B. Addition oder Multiplikation
+----------
+Parsen,,,Definition
+Untersuchung und Analyse der syntaktischen Struktur eines Programms
+----------
+Schlüsselwort,,,Definition
+Reserviertes Wort, das der Compiler verwendet, um ein Programm zu parsen (z.B. if, def oder while). Schlüsselwörter dürfen nicht als Name für eine Variable gewählt werden
+----------
+Semantik,,,Definition
+Bedeutung bzw. Sinn und Zweck eines Programms
+----------
+Skript,,,Definition
+In einer Datei gespeichertes Programm (wird üblicherweise interpretiert).
+----------
+Skript-Modus,,,Definition
+Modus eines Interpreters, bei dem die Anweisungen aus einem Skript gelesen und ausgeführt werden
+----------
+Zuweisung,,,Definition
+Anweisung, die einer Variablen einen Wert zuweist
 ----------
