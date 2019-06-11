@@ -1,0 +1,9 @@
+D:\Randy\Schule\C#\Simulation\Simulation\bin\Debug\Simulation.exe.config
+D:\Randy\Schule\C#\Simulation\Simulation\bin\Debug\Simulation.exe
+D:\Randy\Schule\C#\Simulation\Simulation\bin\Debug\Simulation.pdb
+D:\Randy\Schule\C#\Simulation\Simulation\obj\Debug\Simulation.csprojResolveAssemblyReference.cache
+D:\Randy\Schule\C#\Simulation\Simulation\obj\Debug\Simulation.Form1.resources
+D:\Randy\Schule\C#\Simulation\Simulation\obj\Debug\Simulation.Properties.Resources.resources
+D:\Randy\Schule\C#\Simulation\Simulation\obj\Debug\Simulation.csproj.GenerateResource.Cache
+D:\Randy\Schule\C#\Simulation\Simulation\obj\Debug\Simulation.exe
+D:\Randy\Schule\C#\Simulation\Simulation\obj\Debug\Simulation.pdb
