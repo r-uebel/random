@@ -1,0 +1,2 @@
+D:\Randy\Schule\C#\DatingSim\DatingSim\bin\Debug\DatingSim.exe.config
+D:\Randy\Schule\C#\DatingSim\DatingSim\obj\Debug\DatingSim.csprojResolveAssemblyReference.cache
