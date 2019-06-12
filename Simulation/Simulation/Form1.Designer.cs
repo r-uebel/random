@@ -30,10 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.okButton = new System.Windows.Forms.Button();
-            this.leftButton = new System.Windows.Forms.Button();
-            this.upButton = new System.Windows.Forms.Button();
-            this.rightButton = new System.Windows.Forms.Button();
-            this.downButton = new System.Windows.Forms.Button();
             this.box0_0 = new System.Windows.Forms.PictureBox();
             this.box1_0 = new System.Windows.Forms.PictureBox();
             this.box2_0 = new System.Windows.Forms.PictureBox();
@@ -62,10 +58,12 @@
             this.beard1label = new System.Windows.Forms.Label();
             this.affectionlabel = new System.Windows.Forms.Label();
             this.beard2label = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.affectionLabel1 = new System.Windows.Forms.Label();
+            this.affectionLabel2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.yesLabel = new System.Windows.Forms.Label();
+            this.noLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.box0_0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.box1_0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.box2_0)).BeginInit();
@@ -94,49 +92,13 @@
             // 
             // okButton
             // 
-            this.okButton.Location = new System.Drawing.Point(693, 300);
+            this.okButton.Location = new System.Drawing.Point(665, 210);
             this.okButton.Name = "okButton";
-            this.okButton.Size = new System.Drawing.Size(46, 46);
+            this.okButton.Size = new System.Drawing.Size(116, 108);
             this.okButton.TabIndex = 0;
-            this.okButton.Text = "OK";
+            this.okButton.Text = "\'Don\'t talk to me\' Button";
             this.okButton.UseVisualStyleBackColor = true;
             this.okButton.Click += new System.EventHandler(this.okButton_Click);
-            // 
-            // leftButton
-            // 
-            this.leftButton.Location = new System.Drawing.Point(641, 300);
-            this.leftButton.Name = "leftButton";
-            this.leftButton.Size = new System.Drawing.Size(46, 46);
-            this.leftButton.TabIndex = 1;
-            this.leftButton.Text = "left";
-            this.leftButton.UseVisualStyleBackColor = true;
-            // 
-            // upButton
-            // 
-            this.upButton.Location = new System.Drawing.Point(693, 248);
-            this.upButton.Name = "upButton";
-            this.upButton.Size = new System.Drawing.Size(46, 46);
-            this.upButton.TabIndex = 2;
-            this.upButton.Text = "up";
-            this.upButton.UseVisualStyleBackColor = true;
-            // 
-            // rightButton
-            // 
-            this.rightButton.Location = new System.Drawing.Point(745, 300);
-            this.rightButton.Name = "rightButton";
-            this.rightButton.Size = new System.Drawing.Size(46, 46);
-            this.rightButton.TabIndex = 3;
-            this.rightButton.Text = "right";
-            this.rightButton.UseVisualStyleBackColor = true;
-            // 
-            // downButton
-            // 
-            this.downButton.Location = new System.Drawing.Point(693, 352);
-            this.downButton.Name = "downButton";
-            this.downButton.Size = new System.Drawing.Size(46, 46);
-            this.downButton.TabIndex = 4;
-            this.downButton.Text = "down";
-            this.downButton.UseVisualStyleBackColor = true;
             // 
             // box0_0
             // 
@@ -147,6 +109,7 @@
             this.box0_0.Size = new System.Drawing.Size(96, 92);
             this.box0_0.TabIndex = 5;
             this.box0_0.TabStop = false;
+            this.box0_0.Click += new System.EventHandler(this.box0_0_Click);
             // 
             // box1_0
             // 
@@ -328,6 +291,7 @@
             this.box3_5.Size = new System.Drawing.Size(96, 92);
             this.box3_5.TabIndex = 28;
             this.box3_5.TabStop = false;
+            this.box3_5.Click += new System.EventHandler(this.box3_5_Click);
             // 
             // box2_5
             // 
@@ -350,7 +314,6 @@
             // box0_5
             // 
             this.box0_5.BackColor = System.Drawing.Color.Transparent;
-            this.box0_5.Image = ((System.Drawing.Image)(resources.GetObject("box0_5.Image")));
             this.box0_5.Location = new System.Drawing.Point(510, -1);
             this.box0_5.Name = "box0_5";
             this.box0_5.Size = new System.Drawing.Size(96, 92);
@@ -360,12 +323,14 @@
             // dialogueBox
             // 
             this.dialogueBox.AutoSize = true;
+            this.dialogueBox.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.dialogueBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
             this.dialogueBox.ForeColor = System.Drawing.SystemColors.Control;
             this.dialogueBox.Location = new System.Drawing.Point(12, 429);
-            this.dialogueBox.MaximumSize = new System.Drawing.Size(800, 120);
-            this.dialogueBox.MinimumSize = new System.Drawing.Size(800, 120);
+            this.dialogueBox.MaximumSize = new System.Drawing.Size(400, 120);
+            this.dialogueBox.MinimumSize = new System.Drawing.Size(400, 120);
             this.dialogueBox.Name = "dialogueBox";
-            this.dialogueBox.Size = new System.Drawing.Size(800, 120);
+            this.dialogueBox.Size = new System.Drawing.Size(400, 120);
             this.dialogueBox.TabIndex = 29;
             this.dialogueBox.Text = "-----";
             // 
@@ -375,9 +340,9 @@
             this.beard1label.ForeColor = System.Drawing.SystemColors.Control;
             this.beard1label.Location = new System.Drawing.Point(638, 78);
             this.beard1label.Name = "beard1label";
-            this.beard1label.Size = new System.Drawing.Size(63, 13);
+            this.beard1label.Size = new System.Drawing.Size(60, 13);
             this.beard1label.TabIndex = 30;
-            this.beard1label.Text = "beardinand:";
+            this.beard1label.Text = "beardinand";
             // 
             // affectionlabel
             // 
@@ -399,25 +364,25 @@
             this.beard2label.TabIndex = 32;
             this.beard2label.Text = "beardnando:";
             // 
-            // label1
+            // affectionLabel1
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(742, 78);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(13, 13);
-            this.label1.TabIndex = 33;
-            this.label1.Text = "0";
+            this.affectionLabel1.AutoSize = true;
+            this.affectionLabel1.ForeColor = System.Drawing.SystemColors.Control;
+            this.affectionLabel1.Location = new System.Drawing.Point(742, 78);
+            this.affectionLabel1.Name = "affectionLabel1";
+            this.affectionLabel1.Size = new System.Drawing.Size(13, 13);
+            this.affectionLabel1.TabIndex = 33;
+            this.affectionLabel1.Text = "0";
             // 
-            // label2
+            // affectionLabel2
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(742, 116);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(13, 13);
-            this.label2.TabIndex = 34;
-            this.label2.Text = "0";
+            this.affectionLabel2.AutoSize = true;
+            this.affectionLabel2.ForeColor = System.Drawing.SystemColors.Control;
+            this.affectionLabel2.Location = new System.Drawing.Point(742, 116);
+            this.affectionLabel2.Name = "affectionLabel2";
+            this.affectionLabel2.Size = new System.Drawing.Size(13, 13);
+            this.affectionLabel2.TabIndex = 34;
+            this.affectionLabel2.Text = "0";
             // 
             // label3
             // 
@@ -439,6 +404,36 @@
             this.label4.TabIndex = 36;
             this.label4.Text = "/ 100";
             // 
+            // yesLabel
+            // 
+            this.yesLabel.AutoSize = true;
+            this.yesLabel.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.yesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.yesLabel.ForeColor = System.Drawing.SystemColors.Control;
+            this.yesLabel.Location = new System.Drawing.Point(436, 429);
+            this.yesLabel.MaximumSize = new System.Drawing.Size(380, 50);
+            this.yesLabel.MinimumSize = new System.Drawing.Size(380, 50);
+            this.yesLabel.Name = "yesLabel";
+            this.yesLabel.Size = new System.Drawing.Size(380, 50);
+            this.yesLabel.TabIndex = 37;
+            this.yesLabel.Text = "-----";
+            this.yesLabel.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // noLabel
+            // 
+            this.noLabel.AutoSize = true;
+            this.noLabel.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.noLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.noLabel.ForeColor = System.Drawing.SystemColors.Control;
+            this.noLabel.Location = new System.Drawing.Point(436, 499);
+            this.noLabel.MaximumSize = new System.Drawing.Size(380, 50);
+            this.noLabel.MinimumSize = new System.Drawing.Size(380, 50);
+            this.noLabel.Name = "noLabel";
+            this.noLabel.Size = new System.Drawing.Size(380, 50);
+            this.noLabel.TabIndex = 38;
+            this.noLabel.Text = "-----";
+            this.noLabel.Click += new System.EventHandler(this.label6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -447,10 +442,12 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(828, 561);
+            this.Controls.Add(this.noLabel);
+            this.Controls.Add(this.yesLabel);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.affectionLabel2);
+            this.Controls.Add(this.affectionLabel1);
             this.Controls.Add(this.beard2label);
             this.Controls.Add(this.affectionlabel);
             this.Controls.Add(this.beard1label);
@@ -479,10 +476,6 @@
             this.Controls.Add(this.box2_0);
             this.Controls.Add(this.box1_0);
             this.Controls.Add(this.box0_0);
-            this.Controls.Add(this.downButton);
-            this.Controls.Add(this.rightButton);
-            this.Controls.Add(this.upButton);
-            this.Controls.Add(this.leftButton);
             this.Controls.Add(this.okButton);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(844, 600);
@@ -520,43 +513,47 @@
 
         #endregion
 
-        private System.Windows.Forms.Button okButton;
-        private System.Windows.Forms.Button leftButton;
-        private System.Windows.Forms.Button upButton;
-        private System.Windows.Forms.Button rightButton;
-        private System.Windows.Forms.Button downButton;
-        private System.Windows.Forms.PictureBox box0_0;
-        private System.Windows.Forms.PictureBox box1_0;
-        private System.Windows.Forms.PictureBox box2_0;
-        private System.Windows.Forms.PictureBox box3_0;
-        private System.Windows.Forms.PictureBox box3_1;
-        private System.Windows.Forms.PictureBox box2_1;
-        private System.Windows.Forms.PictureBox box1_1;
-        private System.Windows.Forms.PictureBox box0_1;
-        private System.Windows.Forms.PictureBox box3_2;
-        private System.Windows.Forms.PictureBox box2_2;
-        private System.Windows.Forms.PictureBox box1_2;
-        private System.Windows.Forms.PictureBox box0_2;
-        private System.Windows.Forms.PictureBox box3_3;
-        private System.Windows.Forms.PictureBox box2_3;
-        private System.Windows.Forms.PictureBox box1_3;
-        private System.Windows.Forms.PictureBox box0_3;
-        private System.Windows.Forms.PictureBox box3_4;
-        private System.Windows.Forms.PictureBox box2_4;
-        private System.Windows.Forms.PictureBox box1_4;
-        private System.Windows.Forms.PictureBox box0_4;
-        private System.Windows.Forms.PictureBox box3_5;
-        private System.Windows.Forms.PictureBox box2_5;
-        private System.Windows.Forms.PictureBox box1_5;
-        private System.Windows.Forms.PictureBox box0_5;
-        private System.Windows.Forms.Label dialogueBox;
-        private System.Windows.Forms.Label beard1label;
-        private System.Windows.Forms.Label affectionlabel;
-        private System.Windows.Forms.Label beard2label;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Button okButton;
+        public System.Windows.Forms.PictureBox box0_0;
+        public System.Windows.Forms.PictureBox box1_0;
+        public System.Windows.Forms.PictureBox box2_0;
+        public System.Windows.Forms.PictureBox box3_0;
+        public System.Windows.Forms.PictureBox box3_1;
+        public System.Windows.Forms.PictureBox box2_1;
+        public System.Windows.Forms.PictureBox box1_1;
+        public System.Windows.Forms.PictureBox box0_1;
+        public System.Windows.Forms.PictureBox box3_2;
+        public System.Windows.Forms.PictureBox box2_2;
+        public System.Windows.Forms.PictureBox box1_2;
+        public System.Windows.Forms.PictureBox box0_2;
+        public System.Windows.Forms.PictureBox box3_3;
+        public System.Windows.Forms.PictureBox box2_3;
+        public System.Windows.Forms.PictureBox box1_3;
+        public System.Windows.Forms.PictureBox box0_3;
+        public System.Windows.Forms.PictureBox box3_4;
+        public System.Windows.Forms.PictureBox box2_4;
+        public System.Windows.Forms.PictureBox box1_4;
+        public System.Windows.Forms.PictureBox box0_4;
+        public System.Windows.Forms.PictureBox box3_5;
+        public System.Windows.Forms.PictureBox box2_5;
+        public System.Windows.Forms.PictureBox box1_5;
+        public System.Windows.Forms.PictureBox box0_5;
+        public System.Windows.Forms.Label dialogueBox;
+        public System.Windows.Forms.Label beard1label;
+        public System.Windows.Forms.Label affectionlabel;
+        public System.Windows.Forms.Label beard2label;
+        public System.Windows.Forms.Label affectionLabel1;
+        public System.Windows.Forms.Label affectionLabel2;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label yesLabel;
+        public System.Windows.Forms.Label noLabel;
+
+
+        // essentials: generate npc objects, tracking value
+        NonPlayerCharacter beard1 = new NonPlayerCharacter("beardinand", "Hallo 1!", "Hallo 2!", "Hallo 3!", 0);
+        NonPlayerCharacter beard2 = new NonPlayerCharacter("beardnando", "Hola 1!", "Hola 2!", "Hola 3!", 0);
+        public int affectBeard = 0;
     }
 }
 
