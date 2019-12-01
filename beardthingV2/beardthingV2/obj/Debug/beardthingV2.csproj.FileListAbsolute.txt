@@ -7,3 +7,12 @@ D:\Randy\Schule\C#\beardthingV2\beardthingV2\obj\Debug\beardthingV2.Properties.R
 D:\Randy\Schule\C#\beardthingV2\beardthingV2\obj\Debug\beardthingV2.csproj.GenerateResource.Cache
 D:\Randy\Schule\C#\beardthingV2\beardthingV2\obj\Debug\beardthingV2.exe
 D:\Randy\Schule\C#\beardthingV2\beardthingV2\obj\Debug\beardthingV2.pdb
+D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\bin\Debug\beardthingV2.exe.config
+D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\obj\Debug\beardthingV2.exe
+D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\obj\Debug\beardthingV2.pdb
+D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\bin\Debug\beardthingV2.exe
+D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\bin\Debug\beardthingV2.pdb
+D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\obj\Debug\beardthingV2.csprojResolveAssemblyReference.cache
+D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\obj\Debug\beardthingV2.Form1.resources
+D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\obj\Debug\beardthingV2.Properties.Resources.resources
+D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\obj\Debug\beardthingV2.csproj.GenerateResource.Cache
