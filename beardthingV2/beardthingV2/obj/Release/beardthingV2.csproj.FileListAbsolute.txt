@@ -1,0 +1,9 @@
+D:\Randy\Schule\C#\beardthingV2\beardthingV2\bin\Release\beardthingV2.exe.config
+D:\Randy\Schule\C#\beardthingV2\beardthingV2\bin\Release\beardthingV2.exe
+D:\Randy\Schule\C#\beardthingV2\beardthingV2\bin\Release\beardthingV2.pdb
+D:\Randy\Schule\C#\beardthingV2\beardthingV2\obj\Release\beardthingV2.csprojResolveAssemblyReference.cache
+D:\Randy\Schule\C#\beardthingV2\beardthingV2\obj\Release\beardthingV2.Form1.resources
+D:\Randy\Schule\C#\beardthingV2\beardthingV2\obj\Release\beardthingV2.Properties.Resources.resources
+D:\Randy\Schule\C#\beardthingV2\beardthingV2\obj\Release\beardthingV2.csproj.GenerateResource.Cache
+D:\Randy\Schule\C#\beardthingV2\beardthingV2\obj\Release\beardthingV2.exe
+D:\Randy\Schule\C#\beardthingV2\beardthingV2\obj\Release\beardthingV2.pdb
