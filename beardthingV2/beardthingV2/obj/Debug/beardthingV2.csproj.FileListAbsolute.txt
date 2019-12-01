@@ -1,0 +1,2 @@
+D:\Randy\Schule\C#\beardthingV2\beardthingV2\bin\Debug\beardthingV2.exe.config
+C:\Users\froze\Desktop\beardthingV2\beardthingV2\bin\Debug\beardthingV2.exe.config

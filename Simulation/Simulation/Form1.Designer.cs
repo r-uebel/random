@@ -481,7 +481,7 @@
             this.MaximumSize = new System.Drawing.Size(844, 600);
             this.MinimumSize = new System.Drawing.Size(844, 600);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Sim";
             ((System.ComponentModel.ISupportInitialize)(this.box0_0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.box1_0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.box2_0)).EndInit();
