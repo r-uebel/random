@@ -8,3 +8,4 @@ D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\obj\Debug\beardthingV
 D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\obj\Debug\beardthingV2.csproj.GenerateResource.Cache
 D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\obj\Debug\beardthingV2.exe
 D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\obj\Debug\beardthingV2.pdb
+D:\Randy\Dev\Repositories\random\beardthingV2\beardthingV2\obj\Debug\beardthingV2.csprojResolveAssemblyReference.cache
