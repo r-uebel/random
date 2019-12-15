@@ -6,3 +6,4 @@ D:\Randy\Schule\C#\QuickBot_theClickBot\QuickBot_theClickBot\obj\Release\QuickBo
 D:\Randy\Schule\C#\QuickBot_theClickBot\QuickBot_theClickBot\obj\Release\QuickBot_theClickBot.csproj.GenerateResource.Cache
 D:\Randy\Schule\C#\QuickBot_theClickBot\QuickBot_theClickBot\obj\Release\QuickBot_theClickBot.exe
 D:\Randy\Schule\C#\QuickBot_theClickBot\QuickBot_theClickBot\obj\Release\QuickBot_theClickBot.pdb
+D:\Randy\Schule\C#\QuickBot_theClickBot\QuickBot_theClickBot\obj\Release\QuickBot_theClickBot.csprojResolveAssemblyReference.cache
