@@ -7,3 +7,12 @@ D:\Randy\Schule\C#\QuickBot_theClickBot\QuickBot_theClickBot\obj\Debug\QuickBot_
 D:\Randy\Schule\C#\QuickBot_theClickBot\QuickBot_theClickBot\obj\Debug\QuickBot_theClickBot.csproj.GenerateResource.Cache
 D:\Randy\Schule\C#\QuickBot_theClickBot\QuickBot_theClickBot\obj\Debug\QuickBot_theClickBot.exe
 D:\Randy\Schule\C#\QuickBot_theClickBot\QuickBot_theClickBot\obj\Debug\QuickBot_theClickBot.pdb
+D:\Randy\Dev\Repositories\random\QuickBot_theClickBot\QuickBot_theClickBot\bin\Debug\QuickBot_theClickBot.exe.config
+D:\Randy\Dev\Repositories\random\QuickBot_theClickBot\QuickBot_theClickBot\obj\Debug\QuickBot_theClickBot.exe
+D:\Randy\Dev\Repositories\random\QuickBot_theClickBot\QuickBot_theClickBot\obj\Debug\QuickBot_theClickBot.pdb
+D:\Randy\Dev\Repositories\random\QuickBot_theClickBot\QuickBot_theClickBot\bin\Debug\QuickBot_theClickBot.exe
+D:\Randy\Dev\Repositories\random\QuickBot_theClickBot\QuickBot_theClickBot\bin\Debug\QuickBot_theClickBot.pdb
+D:\Randy\Dev\Repositories\random\QuickBot_theClickBot\QuickBot_theClickBot\obj\Debug\QuickBot_theClickBot.csprojResolveAssemblyReference.cache
+D:\Randy\Dev\Repositories\random\QuickBot_theClickBot\QuickBot_theClickBot\obj\Debug\QuickBot_theClickBot.Form1.resources
+D:\Randy\Dev\Repositories\random\QuickBot_theClickBot\QuickBot_theClickBot\obj\Debug\QuickBot_theClickBot.Properties.Resources.resources
+D:\Randy\Dev\Repositories\random\QuickBot_theClickBot\QuickBot_theClickBot\obj\Debug\QuickBot_theClickBot.csproj.GenerateResource.Cache

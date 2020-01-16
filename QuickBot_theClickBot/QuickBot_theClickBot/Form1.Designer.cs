@@ -187,18 +187,18 @@
         }
 
         #endregion
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ComboBox clicksDropdownlist;
-        private System.Windows.Forms.TextBox filenameInput;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button hammertimeButton;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        public System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        public System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Button button2;
+        public System.Windows.Forms.ComboBox clicksDropdownlist;
+        public System.Windows.Forms.TextBox filenameInput;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Button hammertimeButton;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.Label label6;
     }
 }
 
